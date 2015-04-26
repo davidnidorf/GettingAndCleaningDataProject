@@ -30,7 +30,7 @@ run_Analysis <- function() {
     
     # Filter down to the columns which contain mean or standard deviation information
     # Based on the data descriptions this should be any measurement with the sequence "mean()" or "std()" in it.
-    meanAndStdColIndicies<-grep("mean[()]|std[()]", featureLabels[,2])
+    meanAndStdColIndicies<-grep("mean[(][])]|std[(][])]", featureLabels[,2])
     testData<-testData[,meanAndStdColIndicies]
     trainingData<-trainingData[,meanAndStdColIndicies]
     
@@ -47,12 +47,21 @@ run_Analysis <- function() {
     # Then drop the Activity raw value in favor of the descriptive name
     tidyData<-labelledData[c(2,ncol(labelledData),4:ncol(labelledData)-1)]
     
+    # And do some final modifications on the feature names to make them more human-readable
+    names(tidyData)<-gsub("^t", "Time", names(tidyData))
+    names(tidyData)<-gsub("^f", "Frequency", names(tidyData))
+    names(tidyData)<-gsub("-mean[(][])]", "Mean", names(tidyData))
+    names(tidyData)<-gsub("-std[(][])]", "StandardDeviation", names(tidyData))
+    names(tidyData)<-gsub("Acc", "Acceleration", names(tidyData))
+    names(tidyData)<-gsub("Mag", "Magnitude", names(tidyData))
+    
     # Write out the full tidy data set
     write.table(tidyData,"tidyData_full.txt",row.names=FALSE)
     
     # Create another tidy data set of the averages of each measurement grouped by Subject and Activity
     aggregatedTidyData<-aggregate(tidyData[3:ncol(tidyData)], list(Subject=tidyData$Subject,Activity=tidyData$Activity), mean)
     
-    # Write out the aggregated tidy data set
+    # Write out (and return) the aggregated tidy data set
     write.table(aggregatedTidyData,"tidyData.txt",row.names=FALSE)
+    aggregatedTidyData
 }
