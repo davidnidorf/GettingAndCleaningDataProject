@@ -1,6 +1,4 @@
-# GettingAndCleaningDataProject
-GettingAndCleaningDataProject
-
+# "Getting And Cleaning Data" Project
 The run_analysis.R script creates a tidy data set from the Samsung wearable study data which can be found at:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
