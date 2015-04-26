@@ -15,165 +15,213 @@ Activity
     6. LAYING
 
 TimeBodyAccelerationMean-X
-    The Time-Domain Body Accelerometer Mean on the X axis
+    The mean of the time-domain body accelerometer reading on the X axis
     -1..1
 
 TimeBodyAccelerationMean-Y
-    The Time-Domain Body Accelerometer Mean on the Y axis
+    The mean of the time-domain body accelerometer reading on the Y axis
     -1..1
 
 TimeBodyAccelerationMean-Z
-    The Time-Domain Body Accelerometer Mean on the Z axis
+    The mean of the time-domain body accelerometer reading on the Z axis
     -1..1
 
 TimeBodyAccelerationStandardDeviation-X
-    The Time-Domain Body Accelerometer Standard Deviation on the X axis
+    The standard deviation of the time-domain body accelerometer reading on the X axis
     -1..1
 
 TimeBodyAccelerationStandardDeviation-Y
-    The Time-Domain Body Accelerometer Standard Deviation on the Y axis
+    The standard deviation of the time-domain body accelerometer reading on the Y axis
     -1..1
 
 TimeBodyAccelerationStandardDeviation-Z
-    The Time-Domain Body Accelerometer Standard Deviation on the Z axis
+    The standard deviation of the time-domain body accelerometer reading on the Z axis
     -1..1
 
 TimeGravityAccelerationMean-X
-    The Time-Domain Gravity Accelerometer Mean on the X axis
+    The mean of the time-domain gravity accelerometer reading on the X axis
     -1..1
 
 TimeGravityAccelerationMean-Y
-    The Time-Domain Gravity Accelerometer Mean on the Y axis
+    The mean of the time-domain gravity accelerometer reading on the Y axis
     -1..1
 
 TimeGravityAccelerationMean-Z
-    The Time-Domain Gravity Accelerometer Mean on the Z axis
+    The mean of the time-domain gravity accelerometer reading on the Z axis
     -1..1
 
 TimeGravityAccelerationStandardDeviation-X
-    The Time-Domain Gravity Accelerometer Standard Deviation on the X axis
+    The standard deviation of the time-domain gravity accelerometer reading on the X axis
     -1..1
     
 TimeGravityAccelerationStandardDeviation-Y
-    The Time-Domain Gravity Accelerometer Standard Deviation on the Y axis
+    The standard deviation of the time-domain gravity accelerometer reading on the Y axis
     -1..1
     
 TimeGravityAccelerationStandardDeviation-Z
-    The Time-Domain Gravity Accelerometer Standard Deviation on the Z axis
+    The standard deviation of the time-domain gravity accelerometer reading on the Z axis
     -1..1
     
 TimeBodyAccelerationJerkMean-X
-    The Time-Domain Body Accelerometer Jerk Mean on the X axis
+    The mean of the time-domain body accelerometer jerk reading on the X axis
     -1..1
 
 TimeBodyAccelerationJerkMean-Y
-    The Time-Domain Body Accelerometer Jerk Mean on the Y axis
+    The mean of the time-domain body accelerometer jerk reading on the Y axis
     -1..1
 
 TimeBodyAccelerationJerkMean-Z
-    The Time-Domain Body Accelerometer Jerk Mean on the Z axis
+    The mean of the time-domain body accelerometer jerk reading on the Z axis
     -1..1
 
 TimeBodyAccelerationJerkStandardDeviation-X
-    The Time-Domain Body Accelerometer Jerk Standard Deviation on the X axis
+    The standard deviation of the time-domain body accelerometer jerk reading on the X axis
     -1..1
     
 TimeBodyAccelerationJerkStandardDeviation-Y
-    The Time-Domain Body Accelerometer Jerk Standard Deviation on the Y axis
+    The standard deviation of the time-domain body accelerometer jerk reading on the Y axis
     -1..1
     
 TimeBodyAccelerationJerkStandardDeviation-Z
-    The Time-Domain Body Accelerometer Jerk Standard Deviation on the Z axis
+    The standard deviation of the time-domain body accelerometer jerk reading on the Z axis
     -1..1
     
 TimeBodyGyroMean-X
-    The Time-Domain Gyroscope Mean on the X axis
+    The mean of the time-domain gyroscope reading on the X axis
     -1..1
     
 TimeBodyGyroMean-Y
-    The Time-Domain Gyroscope Mean on the Y axis
+    The mean of the time-domain gyroscope reading on the Y axis
     -1..1
     
 TimeBodyGyroMean-Z
-    The Time-Domain Gyroscope Mean on the Z axis
+    The mean of the time-domain gyroscope reading on the Z axis
     -1..1
     
 TimeBodyGyroStandardDeviation-X
-    The Time-Domain Gyroscope Standard Deviation on the X axis
+    The standard deviation of the time-domain gyroscope reading on the X axis
     -1..1
     
 TimeBodyGyroStandardDeviation-Y
-    The Time-Domain Gyroscope Standard Deviation on the Y axis
+    The standard deviation of the time-domain gyroscope reading on the Y axis
     -1..1
     
 TimeBodyGyroStandardDeviation-Z
-    The Time-Domain Gyroscope Standard Deviation on the Z axis
+    The standard deviation of the time-domain gyroscope reading on the Z axis
     -1..1
     
 TimeBodyGyroJerkMean-X
-    The Time-Domain Gyroscope Jerk Mean on the X axis
+    The mean of the time-domain gyroscope jerk reading on the X axis
     -1..1
     
 TimeBodyGyroJerkMean-Y
-    The Time-Domain Gyroscope Jerk Mean on the Y axis
+    The mean of the time-domain gyroscope jerk reading on the Y axis
     -1..1
     
 TimeBodyGyroJerkMean-Z
-    The Time-Domain Gyroscope Jerk Mean on the Z axis
+    The mean of the time-domain gyroscope jerk reading on the Z axis
     -1..1
     
 TimeBodyGyroJerkStandardDeviation-X
-    The Time-Domain Gyroscope Jerk Standard Deviation on the X axis
+    The standard deviation of the time-domain gyroscope jerk reading on the X axis
     -1..1
     
 TimeBodyGyroJerkStandardDeviation-Y
-    The Time-Domain Gyroscope Jerk Standard Deviation on the Y axis
+    The standard deviation of the time-domain gyroscope jerk reading on the Y axis
     -1..1
     
 TimeBodyGyroJerkStandardDeviation-Z
-    The Time-Domain Gyroscope Jerk Standard Deviation on the Z axis
+    The standard deviation of the time-domain gyroscope jerk reading on the Z axis
     -1..1
     
 TimeBodyAccelerationMagnitudeMean
-    The Time-Domain Accelerometer Magnitude Mean
+    The mean of the time-domain accelerometer magnitude reading
     -1..1
     
 TimeBodyAccelerationMagnitudeStandardDeviation
-    The Time-Domain Accelerometer Magnitude Standard Deviation
+    The standard deviation of the time-domain accelerometer magnitude reading
     -1..1
     
 TimeGravityAccelerationMagnitudeMean
-    The Time-Domain Gravity Accelerometer Magnitude Mean
+    The mean of the time-domain gravity accelerometer magnitude reading
     -1..1
     
 TimeGravityAccelerationMagnitudeStandardDeviation
-    The Time-Domain Gravity Accelerometer Magnitude Standard Deviation
+    The standard deviation of the time-domain gravity accelerometer magnitude reading
     -1..1
     
 TimeBodyAccelerationJerkMagnitudeMean
-    The Time-Domain Accelerometer Jerk Magnitude Mean
+    The mean of the time-domain accelerometer jerk magnitude reading
     -1..1
     
 TimeBodyAccelerationJerkMagnitudeStandardDeviation
-    The Time-Domain Accelerometer Jerk Magnitude Standard Deviation
+    The standard deviation of the time-domain accelerometer jerk magnitude reading
     -1..1
     
 TimeBodyGyroMagnitudeMean
+    The mean of the time-domain gyroscope magnitude reading
+    -1..1
+    
 TimeBodyGyroMagnitudeStandardDeviation
+    The standard deviation of the time-domain gyroscope magnitude reading
+    -1..1
+    
 TimeBodyGyroJerkMagnitudeMean
+    The mean of the time-domain gyroscope jerk magnitude reading
+    -1..1
+    
 TimeBodyGyroJerkMagnitudeStandardDeviation
+    The standard deviation of the time-domain gyroscope jerk magnitude reading
+    -1..1
+    
 FrequencyBodyAccelerationMean-X
+    The mean of the frequency-domain accelerometer reading on the X axis
+    -1..1
+    
 FrequencyBodyAccelerationMean-Y
+    The mean of the frequency-domain accelerometer reading on the Y axis
+    -1..1
+    
 FrequencyBodyAccelerationMean-Z
+    The mean of the frequency-domain accelerometer reading on the Z axis
+    -1..1
+    
 FrequencyBodyAccelerationStandardDeviation-X
+    The standard deviation of the frequency-domain accelerometer reading on the X axis
+    -1..1
+    
 FrequencyBodyAccelerationStandardDeviation-Y
+    The standard deviation of the frequency-domain accelerometer reading on the Y axis
+    -1..1
+    
 FrequencyBodyAccelerationStandardDeviation-Z
+    The standard deviation of the frequency-domain accelerometer reading on the Z axis
+    -1..1
+    
 FrequencyBodyAccelerationJerkMean-X
+    The mean of the frequency-domain accelerometer jerk reading on the X axis
+    -1..1
+    
 FrequencyBodyAccelerationJerkMean-Y
+    The mean of the frequency-domain accelerometer jerk reading on the Y axis
+    -1..1
+    
 FrequencyBodyAccelerationJerkMean-Z
+    The mean of the frequency-domain accelerometer jerk reading on the Z axis
+    -1..1
+    
 FrequencyBodyAccelerationJerkStandardDeviation-X
+    The standard deviation of the frequency-domain accelerometer jerk reading on the X axis
+    -1..1
+    
 FrequencyBodyAccelerationJerkStandardDeviation-Y
+    The standard deviation of the frequency-domain accelerometer jerk reading on the Y axis
+    -1..1
+    
 FrequencyBodyAccelerationJerkStandardDeviation-Z
+    The standard deviation of the frequency-domain accelerometer jerk reading on the Z axis
+    -1..1
+    
 FrequencyBodyGyroMean-X
 FrequencyBodyGyroMean-Y
 FrequencyBodyGyroMean-Z
